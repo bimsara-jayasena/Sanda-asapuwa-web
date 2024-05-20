@@ -1,0 +1,289 @@
+.book-header,.book-body,.book-footer{
+    
+}
+.book-header{
+  
+        background: dodgerblue;
+        background-image: url('../Images/Screenshot (1174).png');
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+        height: 50vh;
+   
+}
+
+.book-body{
+    height: 50vh;
+}
+.left-side,.right-side{
+    
+    width:auto;
+   
+}
+
+.bookForm{
+    
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.bookForm .form-body{
+    display: flex;
+}
+.bookForm .form-footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bookForm label{
+   
+}
+.section-left{
+    display: flex;
+   
+    
+}
+.bookForm input:not(input[type='radio']),select{
+   width:25rem;
+   height: 2.5rem;
+   margin: 2rem;
+    font-size: 1rem;
+    
+    text-align: center;
+    border: 2px solid rgba(5, 119, 250, 0.233);
+    border-radius: 10px;
+    
+}
+.pickMe{
+   
+    margin-top: 1rem;
+    width: 55rem;
+    padding: 2rem;
+
+}
+.pickMe input[type='radio']{
+    margin-left: 2rem;
+}
+.bookForm input::placeholder{
+    color: rgba(0, 0, 0, 0.384);
+}
+
+.bookForm input:focus{
+    border: 2px solid rgb(5, 119, 250);
+    
+}
+.pickMe input{
+    border: 2px solid rgb(47, 0, 255) !important;   
+}
+
+.dropdown{
+    width: 20rem;
+}
+.container{
+   
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.form-footer{
+    padding: 1rem;
+}
+.btnSubmit{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.btnSubmit button{
+    font-size: 1.5rem;
+    width: 15rem;
+    height: auto;
+    border: 2px solid dodgerblue;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+.btnSubmit button:hover{
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.availble-room-container{
+  
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+}
+.availble-room-container .card-container{
+   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+}
+.card-container .roomCard{
+   
+    position: relative;
+   
+   width: 45vw;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+ .roomCard{
+   
+    position: relative;
+   margin-top: 5rem;
+   width: 40vw;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.card-container .roomCard img{
+   
+   width: 100%;
+   height: auto;
+}
+.roomCard ul{
+    padding: 1rem;
+    list-style-type: none;
+    margin: auto;
+}
+.roomCard ul li{
+   line-height: 2rem;
+}
+.roomCard:hover{
+   
+    cursor: pointer;
+   
+    transform: scale(105%);
+
+    transition: 0.1s;
+}
+.card-details{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.cover{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 5rem;
+    background-color:rgba(30, 143, 255, 0.363);
+    z-index: 5;
+    opacity: 0;
+    width: 100%;    
+    height: 100%;
+}
+.roomCard:hover .card-details{
+    filter: blur(1rem);
+    transition: 0.5s;
+}
+.roomCard:hover .cover{
+   opacity: 1;
+   z-index: 5;
+    transition: 0.5s;
+}
+
+.cover button:hover{
+    background-color: dodgerblue;
+    cursor: pointer;
+    color: white;
+}
+
+.notify{ 
+   background-color: dodgerblue;
+   color: white;
+    position: absolute;
+    margin-top: -33rem;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+
+
+
+
+/*  .selectOp input[type='checkBox']{
+    display: none;
+ } */
+ 
+ .selectOp .select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+ }
+.selectOp input[type='radio']:checked+ .select{
+    border: 4px solid dodgerblue;
+    background-color: dodgerblue;
+    color: white;
+    transition: 0.5s;
+}
+
+/* .card-container input[type='radio']{
+   display: none;
+}
+.card-container input[type='radio']:checked+ .roomLabel .roomCard{
+    border: 4px solid dodgerblue;
+    border-radius: 7px;
+}
+.card-container input[type='radio']:checked+ .roomLabel .roomCard .notify{
+   display: block;
+} */
+
+/*  */
+/* .selectOp input[type='checkBox']:checked+ .select{
+    border: 1px solid red;
+}
+.selectOp input[type='checkBox']:checked+ .select{
+    border: 1px solid red;
+} */
+.card-container input[type='checkBox']{
+   display: none;
+}
+.card-container input[type='checkBox']:checked+ .roomLabel .roomCard{
+    border: 4px solid dodgerblue;
+    border-radius: 7px;
+}
+.card-container input[type='checkBox']:checked+ .roomLabel .roomCard .notify{
+   display: block;
+}
+.book-footer{
+    position: relative;
+}
+.center{
+    padding: 1rem;
+   text-align: center;
+   font-size: 2rem;
+}
+.not-available{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+

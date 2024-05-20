@@ -1,0 +1,105 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+form{
+  display: flex;
+}
+
+
+.radioImageLabel{
+    display: flex;
+    padding: 1rem;
+}
+.container{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+   
+    display: flex;
+    align-items: center;
+    
+}
+
+.test-cover{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: rgba(30, 143, 255, 0.356);
+    color: white;
+    z-index: 1;
+    opacity: 0;
+}
+img{
+    
+    opacity: 1;
+    width: 50rem;
+   
+}
+input[type='radio']:checked+ .radioImageLabel img{
+    border: 4px solid dodgerblue;
+    border-radius: 5px;
+}
+input[type='radio']:checked+ .radioImageLabel img{
+    border: 4px solid dodgerblue;
+    border-radius: 5px;
+}
+input[type='radio']:checked+ .radioImageLabel .container h1{
+   display: block;
+}
+input[type='radio']:checked+ .radioImageLabel .container .test-cover{
+    display: none;
+ }
+
+
+ input[type='checkBox']:checked+ .radioImageLabel img{
+    border: 4px solid dodgerblue;
+    border-radius: 5px;
+}
+input[type='checkBox']:checked+ .radioImageLabel img{
+    border: 4px solid dodgerblue;
+    border-radius: 5px;
+}
+input[type='checkBox']:checked+ .radioImageLabel .container h1{
+   display: block;
+}
+input[type='checkBox']:checked+ .radioImageLabel .container .test-cover{
+    display: none;
+ }
+.container:hover img{
+    filter: blur(
+        5px
+    );
+
+
+}
+.container:hover .test-cover{
+    opacity: 1;
+    transition: 0.5s;
+
+}
+.selectOp{
+    position: relative;
+   
+
+    display: flex;
+    height: 5rem;
+}
+.select{
+    position: relative;
+    padding: 1rem;
+}
+input[type='radio']:checked +.select{
+    border: 5px solid rgb(0, 102, 255);
+    border-radius: 7px;
+
+}
+ */

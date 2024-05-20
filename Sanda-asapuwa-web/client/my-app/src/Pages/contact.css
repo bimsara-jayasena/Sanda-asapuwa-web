@@ -1,0 +1,39 @@
+
+.contact-header{
+    
+    background-image: url('../Images/Sanda-Asapuwa-Homestay-Ukuwela-Exterior1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-position: 0 -420px;
+    height:65vh;
+}
+.contact-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+}
+.contact-main h1,h2{
+    padding: 2rem;
+}
+.contact-footer{
+    position: relative;
+   
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-img-container{
+    width: auto;
+    
+    text-align: center;
+    background-color: rgb(6, 125, 245);
+    color: white;
+    font-size: 1rem
+}
+.footer-img-container img{
+    width: 25rem;
+}

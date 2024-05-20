@@ -1,0 +1,49 @@
+.mail-container{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.mailForm{
+    
+    display: flex;
+    justify-content: center;align-items: center;
+    flex-direction: row;
+    gap: 10rem;
+    padding: 2rem;
+}
+.mailForm div:first-child{
+   
+    display: flex;
+    flex-direction: column;
+}
+.mailForm input{
+    margin: 2rem;
+    width: 20rem;
+    height: 4rem;
+    border: 2px solid rgba(30, 143, 255, 0.247);
+    border-radius: 5px;
+   
+}
+.mailForm textarea{
+    border: 1px solid rgba(30, 143, 255, 0.253);
+    width: 45rem;
+    height: 20rem;
+}
+.btnSend{
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+    font-size: 2rem;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 5px;
+}
+.btnSend:hover{
+    color: white;
+    background-color: dodgerblue;
+    transition: 0.5s;
+}
+.mailForm textarea:focus{
+    border: 1px solid rgba(30, 143, 255, 0.781);
+}

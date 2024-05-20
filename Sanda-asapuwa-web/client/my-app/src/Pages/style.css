@@ -1,0 +1,563 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-body-container{
+    position: relative;
+}
+.header{
+    background: dodgerblue;
+    background-image: url('../Images/Sanda-Asapuwa-Homestay-Ukuwela-Exterior.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    height: 100vh;
+}
+.landing{
+    color: white;
+    font-size: 6rem;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    top: 0;
+    
+}
+.landing h2{
+
+}
+.btnBook{
+    background: dodgerblue;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    width: 15rem;
+    height: 5rem;
+    
+}
+.btnBook:hover{
+    border: 4px solid dodgerblue;
+    border-radius: 5px;
+    color: dodgerblue;
+    background: white;
+    transition: 0.5s;
+}
+/* body section */
+.body .welcome {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+    
+}
+
+.body .welcome .paragragh {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    
+
+}
+.body .welcome  h1{
+    color: gray;
+    position: absolute;
+    font-size: 10rem;
+    opacity: 0.3;
+    
+}
+.body .welcome  h2{
+    position: absolute;
+    padding-top: 4.5rem; 
+    font-size: 5rem;
+    text-align: center;
+    
+}
+.body .welcome  .section{
+   
+    position: absolute;
+    transform: translateY(15rem);
+    font-size: 1rem;
+    text-align: center;
+    width: 50%;
+    
+}
+
+.body .welcome .images {
+    position: relative;
+    overflow: hidden;
+   
+   
+    margin-top: 30rem;
+    margin-bottom: 10rem;
+    width: 80rem;
+    height: 50vh;
+    
+  
+}
+
+.body .welcome .images img{
+    width: 25rem;
+    height: 50vh;
+   
+    padding-left: 6rem;
+}
+
+.body .room1 ul,.room2 ul{
+    padding-top: 2rem;
+    list-style-type: none;
+}
+.body .room1 ul li,.room2 ul li{
+    font-size: 1rem;
+    padding-left:60px;
+    margin-bottom: 20px; 
+    position: relative;
+}
+
+.body .room1 ul li::before{
+    content: '';
+    background-image: url('../Images/icons/lotus.png'); 
+    background-size: contain;
+    width: 50px; 
+    height:50px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%; 
+    transform: translateY(-60%);
+  
+}
+body .room2 ul li::before{
+    content: ''; 
+    background-image: url('../Images/icons/icons8-lotus-64-white.png'); 
+    background-size: contain; 
+    width: 50px; 
+    height:50px; 
+    display: inline-block; 
+    position: absolute; 
+    left: 0; 
+    top: 50%; 
+    transform: translateY(-60%);
+  
+}
+body .room2 h2{
+    transform: translateX(-4rem);
+}
+
+
+.body .room1 {
+   display: flex;
+   flex-wrap: nowrap;
+   height: 45rem;
+}
+.body .room2{
+   display: flex;
+   background-color: dodgerblue;
+    height: 45rem;
+}
+
+.body .room2 .img-food{
+   
+   
+    height: 45rem;
+    width: 50%;
+}
+.body .room1 .img-relax{
+   
+    width: 50%;
+    height: 45rem;
+
+}
+
+.body .room1 .img-relax img{
+    
+   
+    width: 52rem;
+    height: 45rem;
+}
+.body .room2 .img-food img{
+    
+   
+    width: 100%;
+    height: 45rem;
+}
+.body .room2 .txtSection{
+    width: 50%;
+}
+
+.body .room1 h1 , .body .room2 h1{
+    color: rgba(76, 186, 230, 0.692);
+    position: absolute;
+    font-size: 12rem;
+    opacity: 0.3;
+    margin-left: -3rem;
+    
+    
+}
+
+.body .room1 h2,.body .room2 h2{
+    position: absolute;
+    margin-top: 4.5rem; 
+    font-size: 5rem;
+   
+}
+.room2 h2{
+   margin-top:7rem !important;
+   
+}
+
+.body .room1 h2,.body .room1 h2{
+    position: absolute;
+    padding-top: 5.5rem; 
+    font-size: 3rem;
+    text-align: center;
+}
+.body .room1 p,.body .room2 p{
+   
+    font-size: 1rem;
+    padding-top: 20rem;
+    width: 40rem;
+}
+
+
+
+.body .room1 .txtSection{
+    width: 50%;
+    padding-left: 10rem;
+}
+.body .room2 .txtSection{
+    width: 50%;
+    margin-left: 6rem;
+}
+
+
+
+
+
+.body .room1 img{
+    width:50%;
+    height:750px;
+    
+}
+
+
+.bg-blue{
+    background: dodgerblue;
+}
+
+.discover{
+    padding-top: 10rem;
+    text-align: center;
+}
+.discover h1{
+    font-size: 3rem;
+}
+.discover p{
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+    
+    text-align: center;
+}
+
+.discover button:hover{
+    border: 2px solid dodgerblue;
+    background-color: white;
+    color: dodgerblue;
+    transition: .5s;
+}
+.ending{
+    
+   position: relative;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+   color: white;
+    height: 70vh;
+    overflow: hidden;
+    
+}
+.ending video{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.reviews{
+    position: relative;
+    padding: 10rem;
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 70vh;
+}
+
+
+.reviews h1{
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+
+
+.reviews img{
+    margin-top: 5rem;
+    width: 150px;
+    height: auto;
+}
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background: var(--red);
+    transform-origin: 0%;
+    z-index: 9;
+  }
+
+  .div1{
+    border: 1px solid red;
+    background-color: red;
+    height: 50vh;
+  }
+  .div2{
+    position: relative;
+    border: 1px solid rgb(0, 255, 0);
+    background-color: rgb(0, 255, 0);
+    height: 50vh;
+    width: 500px;
+  }
+  .div2 h1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+   
+  }
+  .imageContainer{
+    position: relative;
+    overflow: hidden;
+    border: 1px solid red;
+    
+    margin-top: 30rem;
+    margin-bottom: 10rem;
+    width: 80rem;
+    height: 450px;
+  }
+  .imageContainer img{
+    
+    padding-left: 1rem;
+    width: 449px;
+    height: 450px;
+  }
+
+ .btnTest{
+    width: 10rem;
+    height: 3rem;
+    font-size: 2rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    transform: translateY(10rem);
+  }
+  .red{
+    background-color: red;
+  }
+  .hidebox{
+    border: 3px solid green;
+    height: 20rem;
+    width: 20rem;
+    transform: translateX(-100px);
+  }
+  .show{
+    transform: translateX(100px);
+    transition: 0.5s;
+  }
+  
+ 
+  
+
+.icon-container{
+    position: relative;
+   
+    width: 100%;
+    height: 20vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+
+}
+.icon-container div{
+    position: absolute;
+    
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:5rem ;
+   
+}
+.opacity-1{
+    opacity: 1;
+}
+.fa-apple{
+    
+    color: red;
+    font-size: 2rem;
+}
+
+ .open-apple{
+    color: orangered;
+    position: absolute;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transform: translateX(-12rem);
+    transition: .5s;
+ }
+
+ .open-apple:hover{
+   color: white;
+   background-color:orangered;
+   box-shadow: 0px 0px 20px 10px  orangered;
+    
+ }
+
+ .open-html{
+    position: absolute;
+    color:  rgb(0, 102, 255);
+    border: 1px solid rgb(0, 102, 255);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+     transform: translateX(-6rem);
+     transition: .5s;
+  }
+  .open-html:hover{
+    color: white;
+    background-color:  rgb(0, 102, 255);
+    box-shadow: 0px 0px 20px 10px  rgb(0, 119, 255);
+    
+    
+  }
+  .open-fb{
+    position: absolute;
+    
+    border: 1px solid rgb(0, 102, 255);
+    color: rgb(0, 102, 255);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+     transform: translateX(0rem);
+     transition: .5s;
+  }
+  .open-fb:hover{
+   
+    background-color: rgb(0, 119, 255);
+    color: white;
+    box-shadow: 0px 0px 20px 10px  rgb(0, 119, 255);
+    
+    z-index: 3;
+  }
+  .open-yt{
+    position: absolute;
+    border: 1px solid red;
+    color: red;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+     transform: translateX(6rem);
+     transition: .5s;
+  }
+  .open-yt:hover{
+    color: white;
+    background-color:  rgb(255, 0, 0);
+    box-shadow: 0px 0px 20px 10px   rgb(255, 0, 0);
+  }
+ .hide-defualt-border{
+    display: none;
+ }
+/*  .discover button{
+    
+    font-size: 15px;
+    color: white;
+    font-style: bold;
+    border: none;
+    background-color: dodgerblue;
+   
+    
+} */
+ .icon-container  .btnOpen{
+    border: none;
+    color: white;
+    background-color: dodgerblue;
+    width: 10rem;
+    height: 5rem;
+   z-index: 1;
+    transition: 0.5s;
+ }
+
+.hide-btn{
+    width: 0rem;
+    height: 0rem;
+    color: transparent;
+    z-index: -1;
+    display: none;
+    transition: .5s;
+ }
+ 
+
+.vid-container{
+    position: relative;
+   
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.vid-container div{
+    margin: auto;
+}
+.vid-container video{
+    position: absolute;
+    margin: auto;
+   
+    
+    width: 100%;
+    z-index: -1;
+    
+}
